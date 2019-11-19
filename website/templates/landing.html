@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto&display=swap" rel="stylesheet">
+    <title>4Gate</title>
+</head>
+<body>
+    
+    <header>
+        <div class="div-titulo">
+            <h1 class="titulo">4.Gate</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="div-main">
+            <div class="div-subtitulo">
+                <h2 class="subtitulo">Bem Vindo!</h2>
+            </div>
+            <div class="formulario">
+                <form action="#">
+                    <input class="input" type="text" name="usuário" placeholder="Digite seu Usuário...">
+                </form>
+            </div>
+            <div class="formulario">
+                <form action="#">
+                    <input class="input" type="password" name="password" placeholder="Digite sua senha...">
+                </form>
+            </div>
+            <div class="botoes">
+                <button class="botao">Cadastre-se</button>
+                <button class="botao">Login</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
