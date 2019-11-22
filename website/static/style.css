@@ -8,7 +8,6 @@ body{
 
 header{
     height: 180px;
-    /* background-color: black; */
 }
 
 .div-titulo{
@@ -51,15 +50,6 @@ main{
     font-family: 'Roboto', sans-serif;
 }
 
-.div-main-2{
-    display: flex;
-    margin: 0;
-    margin-left: 45px;
-}
-
-.usuario{
-    margin: 0;
-}
 
 .formulario{
     display: flex;
