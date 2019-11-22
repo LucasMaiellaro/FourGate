@@ -1,5 +1,5 @@
 body{
-    background-image: url(../static/imagens/fundo-2.jpg);
+    background-image: url(../../static/imagens/fundo-2.jpg);
     margin: 0;
 }
 
@@ -50,11 +50,23 @@ main{
     font-family: 'Roboto', sans-serif;
 }
 
+.div-main-2{
+    display: flex;
+    margin: 0;
+    margin-left: 45px;
+}
+
+.usuario{
+    margin: 0;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
 
 .formulario{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 5px;
     border-radius: 7px;
 }
 
@@ -83,4 +95,8 @@ main{
     border: 0px solid;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+}
+
+.link{
+    text-decoration: none;
 }

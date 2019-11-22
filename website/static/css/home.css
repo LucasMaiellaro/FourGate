@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(109, 93, 255, 0.6);
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.div-main{
+    background-color: white;
+    margin-top: 100px;
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.div-titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.div-carro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-carro-texto{
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.carro-texto{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.div-carro-conteudo{
+    width: 60%;
+    height: 30px;
+    margin-top: 50px;
+    border: solid 2px;
+    border-radius: 7px;
+    border-color: blue;
+    margin-right: 40px;
+}
