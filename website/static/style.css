@@ -51,6 +51,16 @@ main{
     font-family: 'Roboto', sans-serif;
 }
 
+.div-main-2{
+    display: flex;
+    margin: 0;
+    margin-left: 45px;
+}
+
+.usuario{
+    margin: 0;
+}
+
 .formulario{
     display: flex;
     justify-content: center;
