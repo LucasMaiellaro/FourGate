@@ -10,8 +10,6 @@ def landing(request):
 def home(request):
     return render(request, 'home.html')
 
-def cadastro(request):
-    return render(request, 'cadastro.html')
 
 def cadastro_carro(request):
     form = CarroForm(request.POST or None)
