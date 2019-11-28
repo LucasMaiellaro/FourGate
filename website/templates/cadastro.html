@@ -11,7 +11,7 @@
     <title>4Gate</title>
 </head>
 
-{% block content %}
+
 <body>
     <header>
         <div class="div-titulo">
@@ -19,20 +19,24 @@
         </div>
     </header>
 
-    <main>
+{% block content %}
+<main>
+    <div class="div-subtitulo">
         <h2 class="subtitulo">Cadastre o carro</h2>
-
+    </div>
+    <div class="div-main">
         {% if formulario %}
-        <form method="POST"></form>
+        <form class="formulario" method="POST">
             {% csrf_token %}
             {{formulario}}
-            <button type="submit">Enviar pedido</button>    
+            <button class="botao" type="submit">Enviar pedido</button>   
+        </form>
         {% endif %}
-
+    
         {% if msg %}
-            <h2>{{msg}}</h2>
+            <h2 class="mensagem">{{msg}}</h2>
         {% endif %}
-
-    </main>
-</body>
+    </div>
+</main>
 {% endblock %}
+</body>
